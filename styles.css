@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Gantilah dengan path ke gambar background Anda */
+    background-size: cover; /* Membuat gambar memenuhi seluruh layar */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
